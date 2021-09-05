@@ -7,7 +7,7 @@
 
 ______________________________________________________________________________________________
 ### 1. Router 
-Redirects browser from default index.php to specified php files if 'REQUEST_URI' is in array as key. Ortherwise displays 404 error.
+Checks whether 'REQUEST_URI' is in array as key. Redirects browser from default index.php to specified php files. Ortherwise displays 404 error.
 ##### Example
 ```
 $router = new Router();
